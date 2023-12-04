@@ -55,6 +55,10 @@ Second is the sensitivity to parameter interactions. As mentioned earlier, Morri
 
 The above is the reason why this paper adopts SALib package for data analysis, as well as the specific analysis of Morris algorithm used for SALib package.
 
+To explain about the Maths formula behind Morris, refer to the graph or the official website of SALib: https://github.com/SALib/SALib
+
+<img src="a53f42958c14e1cd76fc9381eb46249.jpg" alt="Abstract Word Cloud">
+
 # Definition of XAI
 XAI stands for "Explainable Artificial Intelligence." It refers to the practice of developing artificial intelligence (AI) systems and machine learning models in such a way that their outputs and decision-making processes can be easily understood and explained by humans. The goal of XAI is to make AI more transparent and interpretable, addressing the "black box" problem where AI models make complex decisions that are difficult to comprehend.
 
