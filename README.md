@@ -1,4 +1,4 @@
-# Jiaolun_Zhou_PS1
+# Jiaolun_Zhou_PS2
 <img src="Photo.jpg" alt="Abstract Word Cloud">
 
 <img src="Jiaolun's Poster.png" alt="Abstract Word Cloud">
