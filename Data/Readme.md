@@ -5,17 +5,14 @@
 ## Data dictionary
 | Variable        | Definition                                          | Description                                         | Frequency     | Range                | Unit        | Type      |
 |-----------------|-----------------------------------------------------|-----------------------------------------------------|---------------|----------------------|-------------|-----------|
-| Connector size  | Physical dimensions of an electronic connector      | Size of connectors                                  | Continuous    | 0,100                | cm^3        | Numerical |
-| Battery Size    | Physical dimensions of a battery                    | Size of battery                                     | continuous    | 0,100                | cm^3        | Numerical |
-| Distance Driven | Distance driven by the car                          | Distance driven by the car in km                    | continuous    | 0,1000               | km          | Numerical |
-| model_year      | The first year the car is produced                  | The first year the car is produced in year          | Continuous    | 1900 to 2020         | year        | Numerical |
-| Range Buffer    | Safety margin or reserved distance                  | Safety margin or reserved distance                  | Continuous    | 0,1000               | cm          | Numerical |
-| Driving Eff     | Optimal fuel use and energy utilization             | Optimal fuel use and energy utilization             | Continuous    | 0,1000               | none        | Numerical |
-| Inverter Eff    | Proportion between fual cost and energy             | Proportion between fual cost and energy             | Continuous    | 0,1000               | none        | Numerical |
-| Dispatch Time   | Time needed to dispatch, similar to range buffer    | Time needed to dispatch in millicrosecond           | Continuous    | 0,1000               | ms          | Numerical |
-| cylinders       | size of a cylinder                                  | size of a cylinder                                  | continuous    | 0,100                | cm^3        | Numerical |
-| Maxpower        | Max power of the engine                             | Max power of the engine                             | Continuous    | 0,1000               | kwh         | Numerical |
-| weight          | weight of a car                                     | weight of a car in kg                               | continuous    | 0,1000               | kg          | Numerical |
+| AuthorID        | ID of the author                                    | Author's ID                                         | Daily         | Various              | N/A         | Numerical |
+| Author          | Name of the author                                  | Author's name                                       | Daily         | Various              | N/A         | String    |
+| Data_original   | Time of the data                                    | When this data is sent by author, exact time        | Daily         | Feb 14th, 2023       | N/A         | String    |
+| Date            | Date of the data                                    | When this data is sent by author                    | Daily         | Feb 14th, 2023       | N/A         | String    |
+| Content         | Contents of the data                                | What this author said                               | Daily         | Various              | N/A         | String    |
+| Attachments     | Attachments in the data                             | File or picture attached with the data              | Daily         | Various              | N/A         | String    |
+| Reactions       | Reaction to the data                                | Other users' reaction to this data                  | Daily         | Various              | N/A         | String    |
+| Preprocessed    | Preprocessed data                                   | Preprocessed data                                   | Daily         | Various              | N/A         | String    |
 
 ## Example
 <img src="724f2f77a1f7065e2127979c007e6ac.jpg" alt="Abstract Word Cloud">
