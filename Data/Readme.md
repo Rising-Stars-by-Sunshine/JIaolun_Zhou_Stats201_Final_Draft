@@ -1,3 +1,7 @@
+# Data Source
+https://www.kaggle.com/datasets/sudalairajkumar/novel-corona-virus-2019-dataset
+
+
 Introduction to the Global Infectious Disease Spatiotemporal Evolution and Scale Dataset (GIDSES)
 
 Our Global Infectious Disease Spatiotemporal Evolution and Scale Dataset (GIDSES) is one of the largest and most detailed records of disease dynamics to date, The Global Infectious Disease Spatiotemporal Evolution and Scale Dataset (GIDSES) is one of the largest and most detailed records of disease development to date. The dataset covers a wide range of infectious disease events with significant public health impacts from 2000 to 2024, including, but not limited to, outbreaks of Coronavirus Pneumonia Virus Newly Diagnosed (COVID-19), Influenza Virus H1N1, Ebola Virus Disease (EVD), Zika Virus Disease (ZVD), and Measles.
