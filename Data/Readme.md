@@ -1,27 +1,12 @@
+Introduction to the Global Infectious Disease Spatiotemporal Evolution and Scale Dataset (GIDSES)
 
-## Description 
-- This dataset contains eleven main factors of a car from both China and oversea markets. Data comes from two professional car website and are collected manually by the author. These data are used for testing and training the model so that the readers can see the effect of the model. If in the future, this research needs more data, future researchers can visit these two websites and get the data. The websites are in the reference list.
+Our Global Infectious Disease Spatiotemporal Evolution and Scale Dataset (GIDSES) is one of the largest and most detailed records of disease dynamics to date, The Global Infectious Disease Spatiotemporal Evolution and Scale Dataset (GIDSES) is one of the largest and most detailed records of disease development to date. The dataset covers a wide range of infectious disease events with significant public health impacts from 2000 to 2024, including, but not limited to, outbreaks of Coronavirus Pneumonia Virus Newly Diagnosed (COVID-19), Influenza Virus H1N1, Ebola Virus Disease (EVD), Zika Virus Disease (ZVD), and Measles.
 
-## Data dictionary
-| Variable        | Definition                                          | Description                                         | Frequency     | Range                | Unit        | Type      | Sample Observation                                     |
-|-----------------|-----------------------------------------------------|-----------------------------------------------------|---------------|----------------------|-------------|-----------|--------------------------------------------------------|
-| AuthorID        | ID of the author                                    | Author's ID                                         | Daily         | Various              | N/A         | String    |3.035150e + 17                                          |
-| Author          | Name of the author                                  | Author's name                                       | Daily         | Various              | N/A         | String    |filthyfawkes                                            |
-| Data_original   | Time of the data                                    | When this data is sent by author, exact time        | Daily         | Feb 14th, 2022       | N/A         | String    |2022/2/14 9:12                                          |
-| Date            | Date of the data                                    | When this data is sent by author                    | Daily         | Feb 14th, 2022       | N/A         | String    |2022/2/14                                               |
-| Content         | Contents of the data                                | What this author said                               | Daily         | Various              | N/A         | String    |@Professor LP                                           |
-| Attachments     | Attachments in the data                             | File or picture attached with the data              | Daily         | Various              | N/A         | String    |                                                        |
-| Reactions       | Reaction to the data                                | Other users' reaction to this data                  | Daily         | Various              | N/A         | String    |                                                        |
-| Preprocessed    | Preprocessed data                                   | Preprocessed data                                   | Daily         | Various              | N/A         | String    |Professor LP                                            |
+Core elements of the dataset include:
 
-## Example
-<img src="724f2f77a1f7065e2127979c007e6ac.jpg" alt="Abstract Word Cloud">
-
-
-# Citation
-Wang, Lei. “汽车参数配置_汽车参数配置查询_汽车参数配置库-达示数据.” Www.daas-Auto.com, 20 Sept. 2021, www.daas-auto.com/supermarket_data_De/109.html. Accessed 28 Nov. 2023.
-
-Richard, Anderson. Car Information and Comparison. 7 Oct. 2022, www.jdpower.com/cars/2022/acura/ilx. Accessed 28 Nov. 2023.
-### Abstract
-
-<img src="Interpretable Machine Learning for Autonomous Vehicles_ Bridging the Gap with eXplainable Artificial Intelligence (XAI) (6).png" alt="Abstract Word Cloud">
+Spatial and temporal distribution: the number of reported cases of each disease is recorded by geographic coordinates and timestamps at the daily or weekly level, providing data at the national and regional levels, even down to specific cities and communities.
+Epidemiologic parameters: Contains infection rates, morbidity, mortality, recovery rates, basic regeneration number (R0), and other key epidemiologic indicators, updated over time and geographic location.
+Interventions and their effects: documents the various prevention and control measures implemented in different regions, such as vaccination coverage, social distance policies, isolation and quarantine regulations, and an assessment of the impact of these measures on the spread of the disease.
+Response of healthcare resources: reflecting the pressure on the healthcare system during the outbreak, including real-time data on bed occupancy, ICU utilization, healthcare staffing and treatment capacity.
+Socio-economic Impact: Integrates data on the impact of the outbreak on socio-economic activities, such as GDP fluctuations, changes in unemployment rates, education disruption statistics, and other secondary impact indicators.
+The dataset undergoes a rigorous quality control process to ensure data reliability and consistency through multi-source data fusion, de-duplication calibration and standardization. It provides a powerful tool for researchers to explore the spatio-temporal dynamic characteristics of infectious diseases, the construction of prediction models, the optimization of prevention and control strategies, and the formulation of public health policies. At the same time, it also provides an empirical basis for governmental decision-making departments, medical institutions and non-governmental organizations, and contributes to the construction of the global health safety network and the improvement of the efficiency of epidemic response.
