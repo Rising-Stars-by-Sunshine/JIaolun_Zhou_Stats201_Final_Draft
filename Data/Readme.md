@@ -15,7 +15,7 @@ https://www.kaggle.com/datasets/sudalairajkumar/novel-corona-virus-2019-dataset
 # Data Contents
 Introduction to the Load Diabetes Dataset
 
-The Load Diabetes dataset is a widely used benchmark dataset in the field of machine learning and data science. It contains 442 instances, each representing a patient's physiological measurements related to diabetes. The dataset was originally collected by the National Institute of Diabetes and Digestive and Kidney Diseases (NIDDK) for use in medical research.
+The Load Diabetes dataset(National Diabetes Data Group (US), et al., 1995) is a widely used benchmark dataset in the field of machine learning and data science. It contains 442 instances, each representing a patient's physiological measurements related to diabetes. The dataset was originally collected by the National Institute of Diabetes and Digestive and Kidney Diseases (NIDDK) for use in medical research.
 
 The dataset includes ten continuous variables, namely age, sex, body mass index (BMI), average blood pressure, and six blood serum measurements (serum insulin, glycated hemoglobin, blood sugar, two plasma measures related to glucose metabolism, and six urinary measures related to glucose metabolism). These variables were measured at baseline in almost 200 American Indian males, mostly above 40 years old, living on or near reservations in Arizona, Colorado, Washington, and North Dakota.
 
