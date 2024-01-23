@@ -1,6 +1,17 @@
 # Data Source
 https://www.kaggle.com/datasets/sudalairajkumar/novel-corona-virus-2019-dataset
 
+## Data dictionary
+| Variable        | Definition                                          | Description                                         | Frequency     | Range                | Unit        | Type      |
+|-----------------|-----------------------------------------------------|-----------------------------------------------------|---------------|----------------------|-------------|-----------|
+| age             | Age of the person                                   | Age                                                 | Continuous    | 0,100                | N/A         | Numerical |
+| sex             | Sex of the person                                   | Sex                                                 | Categorical   | M/F                  | N/A         |Categorical|
+| bmi             | Body mass index, a common measure of obesity        | BMI                                                 | continuous    | 0,100                | N/A         | Numerical |
+| bp              | Average blood pressure                              | Average blood pressure                              | Continuous    | 0,200                | N/A         | Numerical |
+| s1-s6           | Six serum measurements                              | glucose, lipids and other related body standard     | Continuous    | 0,1000               | N/A         | Numerical |
+
+
+
 # Data Contents
 Introduction to the Global Infectious Disease Spatiotemporal Evolution and Scale Dataset (GIDSES)
 
