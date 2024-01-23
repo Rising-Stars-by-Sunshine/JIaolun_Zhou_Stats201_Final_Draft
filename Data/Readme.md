@@ -25,4 +25,4 @@ Overall, the Load Diabetes dataset provides an excellent opportunity for researc
 # Why this data can help the research?
 The choice of the diabetes dataset and its relationship with the final experimental objective is that the dataset provides a comprehensive view of the disease progression, which allows researchers to identify key factors influencing the development of diabetes. By analyzing this data using advanced data science and machine learning techniques, you can develop predictive models for diabetes risk assessment and disease management. This can help improve patient outcomes and reduce the burden on public health systems. The final experimental objective may involve developing an accurate model that predicts the onset of diabetes or assessing the effectiveness of different treatment strategies based on the patient's characteristics.
 
-![Flowchart](./Diabetes Dataset.jpg)
+![Flowchart](./Diabetes_Dataset.jpg)
