@@ -7,6 +7,11 @@ To visualize the distribution of the feature variables, histograms were created 
 
 Finally, the data was standardized using the `StandardScaler` class from `sklearn.preprocessing`. This ensured that all variables had zero mean and unit variance, which is often necessary in machine learning algorithms. Overall, these steps helped to provide an initial understanding of the dataset and its properties.
 
+# Explanation
+The purpose of the data visualization code in this article is to gain insights into the characteristics of the diabetes dataset. By exploring the distribution of the feature variables, their correlation with each other, and the target variable, researchers can better understand how different factors may contribute to the development of diabetes. This knowledge can then be used to inform the selection of appropriate machine learning models and feature engineering techniques for predicting and managing diabetes.
+
+In addition, visualizing the data can help identify any potential issues or outliers that may need to be addressed before modeling. For example, if there are extreme values or missing data points, they may need to be dealt with before proceeding with analysis. Overall, data visualization plays a crucial role in helping researchers gain a deeper understanding of the data and its underlying patterns, which can ultimately lead to more accurate predictions and improved patient outcomes.
+
 #### Data Query
 
 ![data_process](./data_pro.png)
