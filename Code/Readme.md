@@ -12,4 +12,4 @@ In the specific application of the CNN model, we first built a convolutional lay
 The innovation of this project is that the use of CNN models for deep learning of complex disease data not only improves the understanding of disease propagation patterns, but also helps to accurately predict the development trend of the disease, providing a scientific basis for the formulation of public health policies, and contributing to the effective prevention, control, and response to global epidemics.
 
 
-![data_process](./data_process.png)
+![data_process](./data_pro.png)
