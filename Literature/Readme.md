@@ -1,6 +1,6 @@
 # Literature
 ## Literature_Review
-#### Title:Prediction of Type 2 Diabetes Risk and Its Effect Evaluation Based on the XGBoost Model
+#### Title:Prediction of Type 2 Diabetes Risk and Its Effect Evaluation Based on the XGBoost Model(Hong, 2021)
 - Background/Motivation:
 Diabetes is a serious health issue that affects millions of people worldwide. Early detection and prevention of diabetes are crucial to reduce the risks associated with the disease. However, current diagnostic methods are expensive and time-consuming, making them inaccessible to many individuals. Therefore, there is a need for accurate and efficient prediction models that can identify individuals at high risk of developing diabetes.
 
