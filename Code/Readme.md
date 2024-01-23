@@ -10,3 +10,6 @@ In order to reveal disease transmission patterns and predict their development, 
 In the specific application of the CNN model, we first built a convolutional layer structure with embedded spatio-temporal dimensions for mining the intrinsic spatio-temporal features of the data. Subsequently, higher-order abstract features are extracted through a pooling layer, and finally a fully-connected layer is connected in order to facilitate the final prediction tasks, such as the number of future infections, deaths, or the rate of disease spread.
 
 The innovation of this project is that the use of CNN models for deep learning of complex disease data not only improves the understanding of disease propagation patterns, but also helps to accurately predict the development trend of the disease, providing a scientific basis for the formulation of public health policies, and contributing to the effective prevention, control, and response to global epidemics.
+
+
+![data_process](./data_process.png)
