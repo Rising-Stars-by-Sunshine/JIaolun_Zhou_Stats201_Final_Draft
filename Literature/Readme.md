@@ -20,4 +20,5 @@ The results show that the XGBoost model has the highest prediction accuracy and 
 The proposed XGBoost model can significantly contribute to the early detection and prevention of diabetes. It can help healthcare professionals identify individuals who are at high risk of developing diabetes and provide personalized interventions to prevent the onset of the disease. Furthermore, the XGBoost model has superior prediction accuracy and generalization ability compared to other commonly used machine learning algorithms, making it a valuable tool for predicting the risk of type 2 diabetes.
 
 - Flowchart
+
 Source: Whimsical
