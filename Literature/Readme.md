@@ -49,3 +49,26 @@ This research has the potential to contribute significantly to the field of heal
 <img src="Research idea.png" alt="Flow chart">
 
 Source:Whimsical
+
+```
+@article{hong2021xgboost,
+  title={XGBoost-based prediction modelling and analysis for health literacy assessment},
+  author={Hong, Yan and Zhang, Xiaoda and Chen, Jinxiang},
+  journal={International Journal of Modelling, Identification and Control},
+  volume={39},
+  number={3},
+  pages={229--235},
+  year={2021},
+  publisher={Inderscience Publishers (IEL)}
+}
+@article{davagdorj2020xgboost,
+  title={XGBoost-based framework for smoking-induced noncommunicable disease prediction},
+  author={Davagdorj, Khishigsuren and Pham, Van Huy and Theera-Umpon, Nipon and Ryu, Keun Ho},
+  journal={International journal of environmental research and public health},
+  volume={17},
+  number={18},
+  pages={6513},
+  year={2020},
+  publisher={MDPI}
+}
+```
