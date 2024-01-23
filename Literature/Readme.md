@@ -46,6 +46,6 @@ This research has the potential to contribute significantly to the field of heal
 
 - Flow chart
 
-<img src="Predictive Modeling and Analysis of Disease Spread Dynamics Using Machine Learning Techniques (2).png" alt="Flow chart">
+<img src="Research idea.png" alt="Flow chart">
 
 Source:Whimsical
