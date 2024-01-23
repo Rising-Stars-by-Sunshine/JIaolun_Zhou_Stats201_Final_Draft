@@ -8,3 +8,6 @@ To visualize the distribution of the feature variables, histograms were created 
 Finally, the data was standardized using the `StandardScaler` class from `sklearn.preprocessing`. This ensured that all variables had zero mean and unit variance, which is often necessary in machine learning algorithms. Overall, these steps helped to provide an initial understanding of the dataset and its properties.
 
 ![data_process](./data_pro.png)
+
+
+![data_process](./code.png)
