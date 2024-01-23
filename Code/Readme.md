@@ -11,3 +11,5 @@ Finally, the data was standardized using the `StandardScaler` class from `sklear
 
 
 ![data_process](./code.png)
+
+Scource: Whimsical
