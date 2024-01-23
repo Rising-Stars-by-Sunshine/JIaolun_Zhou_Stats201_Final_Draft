@@ -28,7 +28,7 @@ The choice of the diabetes dataset and its relationship with the final experimen
 ![Flowchart](./Diabetes_Dataset.png)
 
 Source: Whimsical
-'''
+```
 @book{national1995diabetes,
   title={Diabetes in America},
   author={National Diabetes Data Group (US) and National Institute of Diabetes and Digestive and Kidney Diseases (US)},
@@ -36,4 +36,4 @@ Source: Whimsical
   year={1995},
   publisher={National Institutes of Health, National Institute of Diabetes and Digestive~…}
 }
-'''
+```
