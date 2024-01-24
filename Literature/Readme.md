@@ -30,7 +30,7 @@ Source: Whimsical
 Diabetes is a chronic disease that affects millions of people worldwide, causing significant health problems and economic burdens. Early detection and prevention are crucial for managing this disease effectively. Machine learning techniques have shown great potential in predicting the risk of developing diabetes based on various factors such as age, gender, BMI, blood pressure, and other physiological measurements.
 
 - Research Question:
-Can machine learning algorithms accurately predict the risk of developing diabetes based on patient data?
+Can machine learning algorithms accurately predict the risk of developing diabetes based on patient data? Make a comparison between XGBoost and SVM to conclude advantages and disadvantages of each techiniques.
 
 - Application Scenarios:
 The proposed research can have practical implications in healthcare settings, where it can be used to identify patients at high risk of developing diabetes and provide personalized preventive measures. It can also aid medical professionals in making informed decisions about treatment plans and disease management strategies.
