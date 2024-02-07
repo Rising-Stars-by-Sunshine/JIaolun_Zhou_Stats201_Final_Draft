@@ -12,7 +12,7 @@
 ### Hypothesis Development:
 - Prediction Hypothesis: Based on existing medical literature and data from the National Diabetes Data Group (US), the hypothesis posits that older age and higher BMI are positively associated with an increased probability of diabetes. Specifically, it is hypothesized that as age increases and BMI rises, so does the likelihood of an individual being diagnosed with diabetes.
 
-- Justification: This hypothesis is rooted in empirical evidence and widely accepted medical findings that suggest aging and obesity are major risk factors for type 2 diabetes. Age-related physiological changes and the correlation between obesity and insulin resistance provide strong scientific rationale for these proposed relationships.
+- Justification: This hypothesis is rooted in empirical evidence (National Diabetes Data Group, 1995) and widely accepted medical findings that suggest aging and obesity are major risk factors for type 2 diabetes. Age-related physiological changes and the correlation between obesity and insulin resistance provide strong scientific rationale for these proposed relationships.
 
 - Machine Learning Algorithm Selection: To test this hypothesis, multiple machine learning algorithms have been utilized, including linear regression, XGBoost, and Support Vector Machines (SVM). Ultimately, linear regression was chosen as the primary model for predicting diabetes probability due to its interpretability and suitability for understanding the linear relationships between the continuous independent variables and the continuous dependent variable. Additionally, given the nature of the hypothesis and the assumption of a potentially linear association between the body parameters and diabetes risk, linear regression offers a straightforward and effective method for estimating the magnitude of these associations.
 
@@ -37,3 +37,33 @@ During preprocessing, the dataset was split into training and testing sets at an
 <img src="flowchart1.png" alt="Flow chart">
 
 Source: Whimsical
+
+```
+@article{hong2021xgboost,
+  title={XGBoost-based prediction modelling and analysis for health literacy assessment},
+  author={Hong, Yan and Zhang, Xiaoda and Chen, Jinxiang},
+  journal={International Journal of Modelling, Identification and Control},
+  volume={39},
+  number={3},
+  pages={229--235},
+  year={2021},
+  publisher={Inderscience Publishers (IEL)}
+}
+@article{davagdorj2020xgboost,
+  title={XGBoost-based framework for smoking-induced noncommunicable disease prediction},
+  author={Davagdorj, Khishigsuren and Pham, Van Huy and Theera-Umpon, Nipon and Ryu, Keun Ho},
+  journal={International journal of environmental research and public health},
+  volume={17},
+  number={18},
+  pages={6513},
+  year={2020},
+  publisher={MDPI}
+}
+@book{national1995diabetes,
+  title={Diabetes in America},
+  author={National Diabetes Data Group (US) and National Institute of Diabetes and Digestive and Kidney Diseases (US)},
+  number={95},
+  year={1995},
+  publisher={National Institutes of Health, National Institute of Diabetes and Digestive~…}
+}
+```
