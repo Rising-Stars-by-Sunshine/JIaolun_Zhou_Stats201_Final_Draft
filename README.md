@@ -20,12 +20,62 @@ By comparing the performance of the different algorithms on the training and val
  
 **AI Answer to These Two Research Questions**
 
-<img src="Photo.jpg" alt="Abstract Word Cloud">
+<img src="7556c5104a22688c7e696f61bb15704.png" alt="Abstract Word Cloud">
 
-<img src="Photo.jpg" alt="Abstract Word Cloud">
+<img src="d12ce9aefb9715e757a5733b57b3f3a.png" alt="Abstract Word Cloud">
 
-  - [Application Scenario (Data Source)]
-  - [Methodology]
+  - **Project application scenarios**
+
+1. **Clinical Decision Support System (CDSS):**
+   - The model can be integrated into the electronic health record system of a medical institution to generate an individualized diabetes risk assessment report in real time based on the patient's basic biological indicators (e.g., blood glucose, blood pressure), demographic information (e.g., age, gender), and lifestyle habit data (e.g., body weight, diet, and exercise).
+   - Based on this report, doctors can formulate intervention strategies in advance, such as adjusting the patient's lifestyle, guiding the rational use of medication, or arranging for more frequent monitoring to prevent the onset of diabetes.
+
+2. **Community Health Screening and Prevention Services:**
+   - The model is used to conduct rapid diabetes risk assessment for residents at community health centers or mass screening events. High-risk groups can be prioritized and recommended to attend in-depth medical checkups and receive personalized health management plans and professional guidance from dietitians, fitness trainers, and so on.
+
+3. **Personalized health management application:**
+   - Develop an intelligent health management app, whereby after users enter relevant personal information and physiological indicators, the model can provide instant feedback on their risk level for developing diabetes and suggestions for improvement.
+   - The app can also integrate behavioral change incentives, such as setting health goals and tracking daily activities and eating habits, to help users reduce their risk of developing the disease.
+
+4. **Public health policy development and resource allocation:**
+   - Government and public health departments can analyze regional diabetes prevalence trends based on model predictions, allocate medical resources in a targeted manner, and design and implement preventive public health interventions, such as publicity and education campaigns on diabetes prevention and treatment, and optimizing the layout of the primary healthcare service network.
+
+5. **Actuarial and risk management in the insurance industry:**
+   - Insurance companies can apply this model to the pricing and risk assessment aspects of medical insurance products, differentiate product design and service provision based on the probability of diabetes risk of customer groups, and at the same time promote policyholders to pay attention to their own health status and take active lifestyle management measures.
+  - **Research methodology**
+
+**I. Data cleaning and pre-processing stage**
+
+1. Data import: firstly, the original diabetes-related dataset was obtained from the WHO database.
+
+2. Data cleaning: Remove missing values or outliers, and treat outliers appropriately. Given the needs of the project, the factor "sex" was excluded (either because it was not the main predictor variable in the setting of this study, or to test the performance of the model in the absence of gender information).
+
+3. Data standardization or normalization: Numerical features such as blood glucose, age, BMI, blood pressure, etc. were appropriately standardized or normalized to facilitate comparison of features of different scales on the same scale.
+
+**II. Data visualization and exploratory analysis stage**
+
+1. Data descriptive statistical analysis: calculate the basic statistical parameters of various types of features, such as mean, standard deviation, maximum value, minimum value, etc.
+
+2. Data visualization: drawing correlation heat map, by observing the correlation between two and two of each feature, exploring their relationship with the final result (i.e., diabetes likelihood), and searching for potential risk factors as well as multiple covariance problems.
+
+**III. Modeling and Evaluation Stages**
+
+1. Feature engineering: based on correlation analysis and domain knowledge, select features with significant influence to construct a feature set.
+
+2. model training:
+   a. Use XGBoost algorithm to train the model with its excellent generalization ability and good adaptability to large dataset.
+   b. Construct a linear regression model for comparing the performance of non-tree-structured models.
+   c. Apply Support Vector Machine (SVM) model, which is especially suitable for classification problems with small samples and high dimensionality.
+   d. Build a decision tree model to visualize the importance of features and classification rules.
+   
+3. Model Evaluation: Divide the dataset into training set and test set, and use the cross-validation strategy to ensure the stability and robustness of the model performance. For each model, indicators such as accuracy, precision, recall, and F1 score are calculated separately, and the prediction performance of the four models is compared by these indicators.
+
+**IV. Model Selection and Application**
+
+1. Based on the results of model evaluation, the optimal model (i.e., the model with the highest accuracy) was selected as the main tool for diabetes risk prediction.
+
+2. The optimal model was used to predict the test set data and its prediction effect was further analyzed, including the characteristics of misclassified samples and the potential challenges of the model in practical applications.
+
   - [Results]
   - [Intellectual Merits and Practical impacts of your project.]
 
