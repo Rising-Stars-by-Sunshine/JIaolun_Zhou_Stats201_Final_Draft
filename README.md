@@ -76,29 +76,121 @@ By comparing the performance of the different algorithms on the training and val
 
 2. The optimal model was used to predict the test set data and its prediction effect was further analyzed, including the characteristics of misclassified samples and the potential challenges of the model in practical applications.
 
-  - [Results]
-  - [Intellectual Merits and Practical impacts of your project.]
+  - **Results**
+1. **Relationships between diabetes and age, fat, glucose, and blood pressure:**
+   - **Positive correlation**: the results show that the risk of developing diabetes increases with age, which is consistent with the fact that diabetes is usually more prevalent in the middle-aged and older age groups. At the same time, higher adiposity (which may refer to blood lipids or overweight/obesity), high blood glucose levels, and high blood pressure are all positively associated with the onset and progression of diabetes, and are all recognized risk factors for diabetes, which may lead to increased insulin resistance, which may in turn predispose to type 2 diabetes.
+
+2. **Diabetes is not associated with sex (gender)**:
+   - The analysis found that sex itself did not significantly affect the risk of developing diabetes after controlling for other variables. Although there are differences in diabetes incidence between men and women, gender was not a determining factor in this particular data set and analysis conditions.
+
+3. **Association between diabetes and body fat percentage:**
+   - **Negative correlation**: normally, higher body fat percentage is associated with increased risk of diabetes, but the results mentioned here show a negative correlation, which may be due to special circumstances in data processing or model construction. Under normal circumstances, a high body fat percentage should imply an increased risk of diabetes. If there is a negative correlation, the data may need to be further examined to see if there is any error in the data or if there is any special processing, for example, whether the "body fat percentage" here refers to a specific type of body fat distribution, such as a different proportion of visceral fat versus subcutaneous fat, or whether a lower body fat percentage represents an improvement in lifestyle, or other factors. or whether lower body fat percentage represents the influence of factors such as improved lifestyle.
+
+  - **Intellectual Merits and Practical impacts of your project**
+**Intellectual Merits:**
+
+1. **Novelty and Innovation:** The project contributes to the advancement of medical research by employing machine learning algorithms to predict diabetes risk, an innovative approach that leverages computational methods to analyze complex health data patterns. By excluding sex as a factor, it challenges traditional assumptions about risk factors and prompts further exploration into other biological and lifestyle components.
+
+2. **Exploration of Non-traditional Relationships:** The finding that diabetes is negatively correlated with body fat percentage deviates from common knowledge, suggesting new avenues for investigation into the role of different types of adipose tissue or considering body composition rather than BMI alone in diabetes prediction models.
+
+3. **Feature Importance Insights:** The project provides valuable insights into the relative importance of various factors in diabetes onset, emphasizing the strong positive correlations between diabetes and age, glucose levels, blood pressure. This reinforces existing knowledge and can guide future hypothesis generation and testing in diabetes etiology and prevention.
+
+4. **Methodological Rigor:** The use of multiple machine learning techniques (XGBoost, Linear Regression, SVM, Decision Tree) enables robust comparative analysis, highlighting the best-performing model. This methodological approach demonstrates a commitment to rigorous empirical validation and comparison of predictive models, which is crucial for scientific reproducibility and reliability.
+
+**Practical Impacts:**
+
+1. **Risk Stratification and Early Detection:** The resulting predictive model could be integrated into clinical decision support systems, allowing healthcare providers to identify high-risk individuals early on and initiate preventative interventions before disease onset. This could lead to significant improvements in public health and patient outcomes.
+
+2. **Resource Allocation Efficiency:** With accurate diabetes risk predictions, healthcare resources can be more effectively targeted at those most in need, reducing unnecessary screenings for low-risk populations and ensuring that high-risk groups receive timely care and management strategies.
+
+3. **Personalized Health Management:** Understanding the key contributing factors allows for tailored lifestyle recommendations and personalized medicine approaches. For instance, patients with higher blood pressure may be prescribed more aggressive hypertension control measures, while those with high glucose levels might receive dietary counseling or medication to manage their prediabetes status.
+
+4. **Public Health Policy and Education:** The findings can inform public health policies, emphasizing the importance of monitoring and managing age-related risks, controlling blood pressure, maintaining healthy glucose levels, and possibly reconsidering the relationship between body fat and diabetes. This can shape community-based health programs, school curricula, and workplace wellness initiatives.
+
+5. **Research Prioritization:** By identifying the most impactful risk factors, the study can direct future research towards understanding the underlying mechanisms linking these factors to diabetes, potentially leading to novel therapeutic targets and prevention strategies.
 
 ## Table of Contents
-- literature
-- method
-- data
-- code
-- results
-- spotlight
-- more about the author
-- references
+# Table of Contents
+1. [**Self Introduction**](#self-introduction)
+2. [**Literature**](./Literature)
+3. [**Data**](./Data)
+   - [Data dictionary](./Data)
+   - [Flowchart](./Data)
+4. [**Code**](./Code)
+   - [Flowchart](./Code)
+5. [**Method**](./Literature)
 
 ## Literature
+In this literature review and research conceptualization, the global public health problem of diabetes and the importance of its early detection and prevention are first introduced. In response to the high cost and time-consuming nature of current diagnostic methods, researchers set out to build efficient and accurate predictive models to identify potentially high-risk individuals.
 
+The study cited in Part I (Hong, 2021) utilized the XGBoost algorithm to build a model for predicting the risk of type 2 diabetes and compared its performance with machine learning algorithms such as SVM, RF and K-NN. After collecting data from 380 middle-aged and elderly populations in Xicheng District, Beijing, through a questionnaire survey on their living habits and health status and using convenience sampling and snowball sampling, the results showed that the XGBoost model outperformed the other models in terms of prediction accuracy (average precision of 0.8909) and generalization ability (AUC of 0.9182), with a significant intellectual contribution and practical impact. The model can be used in a variety of healthcare scenarios to help healthcare professionals identify high-risk populations and provide personalized interventions.
+
+The research concept presented in the second part aims to investigate whether machine learning techniques can effectively predict the risk of diabetes development accurately using patient data such as age, gender, BMI, blood pressure, etc., and plans to analyze the advantages and disadvantages of each by comparing the two algorithms, XGBoost and SVM. In this study, various supervised learning algorithms such as logistic regression, decision trees, random forests, etc. will be used for preprocessing, feature engineering operations on the dataset and evaluating the model performance with the help of cross-validation. The expected results will demonstrate the effectiveness of machine learning algorithms in predicting diabetes risk, reveal key risk factors, and contribute to the improvement of clinical practice, development of disease management strategies, and global diabetes prevention and control policies.
 ## Method
+
+The research methodology involves a multi-step process to develop and evaluate predictive models for diabetes risk using machine learning techniques.
+
+1. **Data Collection**: 
+   - Gather data from a targeted population, in this case, middle-aged and elderly individuals living in Xicheng District, Beijing, through a questionnaire survey that captures personal details, lifestyle factors (diet and exercise), and family medical history.
+   - Use convenience sampling and snowball sampling methods to ensure a diverse and representative dataset.
+
+2. **Data Preprocessing**:
+   - Clean the collected data by handling missing values, outliers, and inconsistencies.
+   - Convert categorical variables into numerical representations where necessary (one-hot encoding or ordinal encoding).
+   - Normalize or standardize continuous variables to ensure comparability across features.
+
+3. **Feature Engineering**:
+   - Identify and select relevant features based on domain knowledge and statistical analysis.
+   - Potentially create new features or transform existing ones to improve model performance.
+
+4. **Model Development**:
+   - Implement several machine learning algorithms, including logistic regression, decision trees, random forests, support vector machines (SVM), and eXtreme Gradient Boosting (XGBoost).
+   - Train these models on the preprocessed data with the objective of predicting the likelihood of developing type 2 diabetes.
+
+5. **Model Evaluation**:
+   - Employ 10-fold cross-validation as an unbiased assessment method to estimate the models' accuracy and avoid overfitting.
+   - Evaluate the performance of each model using metrics such as accuracy, precision, recall, F1-score, and the area under the receiver operating characteristic curve (AUC).
+
+6. **Comparative Analysis**:
+   - Compare the predictive power of different models, particularly focusing on XGBoost versus SVM, analyzing their advantages and disadvantages.
+   - Select the best-performing model based on validation results.
+
+7. **Interpretation and Impact Assessment**:
+   - Interpret the most influential factors contributing to diabetes risk based on feature importances from the chosen model.
+   - Discuss the practical implications and potential applications of the developed model in healthcare settings, emphasizing its role in early detection, personalized interventions, and informed clinical decision-making.
+
+8. **Validation and Generalizability**:
+   - Validate the final model's performance on an independent test set if available to ensure generalizability to other populations or contexts.
 
 ## Data
 
+**Data Source**: https://www.kaggle.com/datasets/sudalairajkumar/novel-corona-virus-2019-dataset
+
+**Data Introduction**: The Load Diabetes dataset(National Diabetes Data Group (US), et al., 1995) is a widely used benchmark dataset in the field of machine learning and data science. It contains 442 instances, each representing a patient's physiological measurements related to diabetes. The dataset was originally collected by the National Institute of Diabetes and Digestive and Kidney Diseases (NIDDK) for use in medical research.
+
+The dataset includes ten continuous variables, namely age, sex, body mass index (BMI), average blood pressure, and six blood serum measurements (serum insulin, glycated hemoglobin, blood sugar, two plasma measures related to glucose metabolism, and six urinary measures related to glucose metabolism). These variables were measured at baseline in almost 200 American Indian males, mostly above 40 years old, living on or near reservations in Arizona, Colorado, Washington, and North Dakota.
+
+The target variable in the dataset is a quantitative measure of disease progression one year after baseline. The goal of many analyses of these data is to determine whether baseline metabolic values or other characteristics predict future diabetes status. The dataset is often used for classification tasks, such as predicting whether a patient will develop diabetes within five years of the baseline measurement.
+
+Overall, the Load Diabetes dataset provides an excellent opportunity for researchers to explore the relationship between various physiological measurements and the development of diabetes. It is a valuable resource for both academic and industrial research in the fields of machine learning, data science, and healthcare.
 ## Code
+- 1. data preprocessing: cleaning and organizing the collected questionnaire data, including dealing with missing values, outliers, and coding the categorical features into transformations.
 
+- 2. Feature engineering: Necessary standardization or normalization of selected feature variables (e.g., age, BMI, blood pressure, etc.) and possible generation of new derived features according to actual needs.
+
+- 3. model training and validation: logistic regression, decision tree, random forest, support vector machine, and XGBoost models were constructed and trained using the Python programming language and its related libraries (e.g., sklearn), respectively. A 10-fold cross-validation method was used to assess the performance of each model to ensure that the models have good generalization ability.
+
+- 4. Comparison of model performance: The accuracy and AUC of each model in predicting the risk of diabetes were compared and analyzed, with a special focus on the performance of the two algorithms, XGBoost and SVM.
+
+- 5. Interpretation of results: Based on the optimal model (e.g., XGBoost), key factors affecting the risk of diabetes are identified and interpreted in depth.
 ## Result
+In this study, machine learning algorithms were used to predict the risk of diabetes, and after comparing the performance of different models, the XGBoost model was the best in terms of prediction, with the lowest R^2 value (note: in regression analysis, the closer the R^2 value is to 1 indicates a better model fit, but here it may refer to the adjusted R^2 or the score of cross-validation), showing excellent prediction and generalization performance.
 
+The results of the data analysis showed that among the factors considered, gender did not significantly affect the probability of developing diabetes. On the other hand, age, BMI (Body Mass Index), blood glucose level, and blood pressure were positively correlated with the probability of developing diabetes, meaning that the higher the values of these indicators, the higher the risk of developing diabetes in an individual.
+
+It is worth noting that body fat percentage was negatively associated with the probability of diabetes, which reveals a new finding that is different from the traditional understanding, i.e., higher body fat percentage may not directly increase the risk of diabetes under certain conditions, or there may be a complex mechanism of influence in specific groups and conditions, which needs to be further explored.
+
+Taken together, this study not only provides an efficient and accurate method for the prediction of diabetes risk, but also deepens the understanding of the interactions between factors related to the development of diabetes, and provides a scientific basis for the design of future preventive strategies and the development of interventions.
 ## Spotlight
 - Posters
 - Figures
