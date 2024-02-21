@@ -31,7 +31,7 @@ In summary, extending the current research with causal inference methodologies p
 # Future Research
 Flowchart: 
 
-<img src="Predictive Modeling and Analysis of Disease Spread Dynamics Using Machine Learning Techniques (2).png" alt="Flow chart">
+<img src="future_research.png" alt="Flow chart">
 
 Source: Whimsical
 
