@@ -7,7 +7,7 @@
 
 - **Project Summary**:
 
-  - **Project Background**: As a global public health problem, the incidence of diabetes continues to rise globally, placing a heavy burden on patients' quality of life as well as on society's healthcare resources. According to the World Health Organization (WHO), approximately 422 million people worldwide suffer from diabetes, and this number is expected to grow further in the coming years. The disease not only affects the physical health of individuals, leading to a series of complications such as cardiovascular disease, nephropathy, retinopathy, etc., but also has a profound impact on the socio-economic level.
+**Project Background**: As a global public health problem, the incidence of diabetes continues to rise globally, placing a heavy burden on patients' quality of life as well as on society's healthcare resources. According to the World Health Organization (WHO), approximately 422 million people worldwide suffer from diabetes, and this number is expected to grow further in the coming years. The disease not only affects the physical health of individuals, leading to a series of complications such as cardiovascular disease, nephropathy, retinopathy, etc., but also has a profound impact on the socio-economic level.
 
   The aim of this research project is to use modern machine learning techniques to deeply mine and analyze large-scale diabetes-related data obtained from the World Health Organization, with the aim of constructing an efficient and accurate prediction model for the risk of developing diabetes. We plan to use four mainstream machine learning algorithms: support vector machine (SVM), XGBoost, linear regression, and decision tree to model and predict the likelihood of diabetes occurrence, respectively.
 
