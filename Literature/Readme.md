@@ -50,6 +50,16 @@ This research has the potential to contribute significantly to the field of heal
 
 Source:Whimsical
 
+**Relationship with Recent Literature:**
+The current study aligns with recent literature in the application of machine learning techniques for predicting type 2 diabetes risk. Similar to other studies, it underscores the importance of developing accurate prediction models as a means to facilitate early detection and intervention. The use of XGBoost, which has been widely recognized in the field for its predictive capabilities, is consistent with contemporary research trends. Additionally, findings that support the non-relevance of gender in diabetes risk prediction and positive correlations between diabetes risk and factors such as age, BMI, glucose levels, and blood pressure are also echoed in recent publications.
+
+**Difference from Recent Literature:**
+However, this study presents several unique aspects that differentiate it from some recent works. Firstly, while most studies typically compare multiple machine learning algorithms, this study specifically contrasts XGBoost against SVM and highlights the superior performance of XGBoost, emphasizing its potential as a leading model for diabetes risk prediction. 
+
+Secondly, the discovery of an inverse relationship between body fat percentage and diabetes risk is a novel finding not commonly reported in the existing literature. This suggests that there might be more complex interactions or distinct mechanisms at play concerning body composition and diabetes development, which can lead to new insights and directions for future research.
+
+Finally, the dataset used in this project was collected through a questionnaire survey targeting middle-aged and elderly individuals in Xicheng District, Beijing, providing a localized context that may contribute unique characteristics compared to broader or more diverse datasets employed in other studies.
+
 ```
 @article{hong2021xgboost,
   title={XGBoost-based prediction modelling and analysis for health literacy assessment},
