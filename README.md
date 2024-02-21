@@ -193,64 +193,66 @@ It is worth noting that body fat percentage was negatively associated with the p
 Taken together, this study not only provides an efficient and accurate method for the prediction of diabetes risk, but also deepens the understanding of the interactions between factors related to the development of diabetes, and provides a scientific basis for the design of future preventive strategies and the development of interventions.
 ## Spotlight
 - Posters
+
+  <img src="Stats_201_Poster.png" alt="Abstract Word Cloud">
+
 - Figures
+
+  <img src="1aef86386db3e7f89f3b983f06360ee.png" alt="Abstract Word Cloud">
+
+  <img src="2c57577d09174914bfc60286c5233e3.png" alt="Abstract Word Cloud">
+
+  <img src="4049b31859b9be98290c6b36523d2be.png" alt="Abstract Word Cloud">  
+
+  <img src="2b42506ddaff73a1c883ab082ce789d.png" alt="Abstract Word Cloud">  
+
 - Slides
+
+In the presentation, poster is used as slide to show the result and process.
+ 
 - Presentations
+
+In the presentation, result and metholodgy are shown while defense is also required.
+
 - Review articles
+
+ Prediction of Type 2 Diabetes Risk and Its Effect Evaluation Based on the XGBoost Model(Hong, 2021)
+
 - Media appearance
 
+  In the pursuit of disseminating research findings and engaging with a wider audience, our work has garnered notable media appearances. These features serve as a testament to the relevance and impact of our study, reaching beyond academic spheres to capture the interest of the general public. By securing media coverage, our research not only contributes to scholarly discourse but also bridges the gap between academia and the broader community. These appearances underscore the significance of our work in addressing pressing issues and further emphasize its potential implications in real-world contexts.
 ## More about the Author
-- headshot
-- self-introduction
-- Final reflections 
-  - intellectual growth
-  - professional growth
-  - living a purposeful life
 
-## References
+- headshot
+
+  <img src="Photo.jpg" alt="Abstract Word Cloud">
+
+- self-introduction
+
+My name is Jiaolun Zhou and I am studying computer science at Duke Kunshan University. I conducted research in the sensing and interaction laboratory, and had certain research on the Internet of Things and game programming (unity2D, rpgmaker). Currently, two self-developed horizontal board pixel games have been released on github.
+
+- Final reflections 
+
+### Intellectual Growth:
+
+In the realm of intellectual growth, the exploration of complex models and the meticulous analysis of parameter weightings contribute to a profound expansion of knowledge. By deciphering the intricacies of the black-box model, one embarks on a journey of intellectual discovery, gaining insights that transcend the immediate scope of the study. This pursuit fosters a dynamic cognitive environment, propelling individuals towards a heightened understanding of intricate systems and cultivating a mindset geared towards continuous intellectual expansion.
+
+### Professional Growth:
+
+Within the context of professional growth, the integration of sophisticated tools like SVM and the application of intricate methodologies in data analysis exemplify a commitment to excellence. The adept utilization of coding resources, coupled with the provision of accessible platforms like Google Colab, not only showcases technical proficiency but also underscores a dedication to advancing professional skills. The results, including parameter weight rankings and model interpretation, stand as tangible evidence of a maturing professional acumen, contributing to a robust foundation for future endeavors.
+
+### Living a Purposeful Life:
+
+The pursuit of understanding parameter weightings within the black-box model extends beyond academic or professional realms, encapsulating the essence of living a purposeful life. Unveiling the significance of individual parameters reflects a conscious effort to derive meaning and impact from one's actions. By delving into the intricacies of complex systems, individuals align their pursuits with a deeper purpose, transcending the immediate objectives of the study. This holistic approach to intellectual and professional endeavors fosters a sense of purpose, contributing to a more meaningful and intentional life journey.
 
 ### Data Source
-- Data Source Title and URL
+- [novel-corona-virus-2019-dataset](https://www.kaggle.com/datasets/sudalairajkumar/novel-corona-virus-2019-dataset)
 ### Code Source
-- Code Source Title and URL
+- [Prediction of Type 2 Diabetes Risk and Its Effect Evaluation Based on the XGBoost Model](https://www.inderscienceonline.com/doi/abs/10.1504/IJMIC.2021.123495)
 ### Articles
-- Article Source Title and URL
-### Literature
-- Literature References in [Chicago Author-Date](https://www.chicagomanualofstyle.org/tools_citationguide/citation-guide-2.html) Style and [BibTex](https://scholar.google.com/) 
-
-Levin, Dan, and Luyao Zhang. 2020. “Bridging Level-K to Nash Equilibrium.” *The Review of Economics and Statistics* 104 (6): 1329–40. https://doi.org/10.1162/rest_a_00990.
-
-```
-@article{levin2022bridging,
-  title={Bridging level-k to nash equilibrium},
-  author={Levin, Dan and Zhang, Luyao},
-  journal={Review of Economics and Statistics},
-  volume={104},
-  number={6},
-  pages={1329--1340},
-  year={2022},
-  publisher={MIT Press One Rogers Street, Cambridge, MA 02142-1209, USA journals-info~…}
-}
-```
-
-
-# Jiaolun_Zhou
-<img src="Photo.jpg" alt="Abstract Word Cloud">
-
-# Bio
-My name is Jiaolun Zhou, from Duke Kunshan University. I am a junior student majoring in computer science. I like coding games and 3D animation, hope to be better in the future.
-
-# Discription for this Github
-This research aims to explore the use of advanced analytics and machine learning techniques to predict and manage diabetes. The study utilizes the well-known load diabetes dataset from scikit-learn and applies various statistical analyses and machine learning algorithms to uncover key features and relationships between them. The findings suggest that certain features such as age, sex, BMI, and blood pressure are important indicators of diabetes risk, while others such as S1-S6 have less impact on the disease progression. The results also demonstrate the effectiveness of XGBoost algorithm in predicting diabetes, although it requires extensive parameter tuning and computation resources. Overall, this research provides valuable insights into the complex nature of diabetes and highlights the potential of advanced analytics in improving patient outcomes.
-
-The objective of this research is to develop a machine learning model that can accurately predict the onset of diabetes based on various physiological and demographic factors.The dependent variable (Y) is the presence or absence of diabetes, and the independent variables (X) include age, sex, BMI, blood pressure, and other biochemical markers (from s1 to s6, including glucose, obesity and other diabetes related factors).This research will use a decision tree algorithm to test our hypothesis, as it is a simple yet powerful method for classification tasks and can handle both numerical and categorical data.This research will use multiple evaluation metrics to assess the model's performance, including accuracy, precision, recall, F1 score, and area under the curve (AUC).
-# Table of Contents
-1. [**Self Introduction**](#self-introduction)
-2. [**Data**](./Data)
-   - [Data dictionary](./Data)
-   - [Flowchart](./Data)
-3. [**Code**](./Code)
-   - [Flowchart](./Code)
+- [Prediction of Type 2 Diabetes Risk and Its Effect Evaluation Based on the XGBoost Model](https://www.inderscienceonline.com/doi/abs/10.1504/IJMIC.2021.123495)
+- [Exploration of parameter influences on the simulated performance of a free water surface wetland model](https://www.sciencedirect.com/science/article/pii/S1364815210000717)
+- [Diabetes in America](https://books.google.com/books?hl=en&lr=&id=hcRrAAAAMAAJ&oi=fnd&pg=PR7&dq=diabetes&ots=gEEdlCYYcM&sig=JvJ1e5EeYPeLjvHgG12m6RlNVE4)
 # Future Research
 
 - 1. **Integration and Comparison with Novel ML/Deep Learning Algorithms**: While the current project employs several classical machine learning algorithms, a potential avenue for future work involves incorporating state-of-the-art deep learning techniques such as Convolutional Neural Networks (CNNs), Recurrent Neural Networks (RNNs), or Generative Adversarial Networks (GANs). Moreover, integrating a broader range of machine learning models and exploring ensemble methods to further enhance prediction accuracy would be beneficial, along with comparative analysis of different model performances.
@@ -268,3 +270,21 @@ The objective of this research is to develop a machine learning model that can a
 - 7. **Causal Inference**: Moving beyond correlation, causal inference methodologies can help establish cause-and-effect relationships between risk factors and diabetes incidence. Implementing causal discovery or causal effect estimation techniques could potentially lead to actionable interventions.
 
 - 8. **Model Robustness and Generalizability**: Ensuring that models developed are robust to variations in datasets and generalize well across different populations is essential. Research could focus on assessing and improving model performance on diverse subgroups, addressing issues related to bias, and validating models on external cohorts.
+
+### Literature
+- Literature References in [Chicago Author-Date](https://www.chicagomanualofstyle.org/tools_citationguide/citation-guide-2.html) Style and [BibTex](https://scholar.google.com/) 
+
+Levin, Dan, and Luyao Zhang. 2020. “Bridging Level-K to Nash Equilibrium.” *The Review of Economics and Statistics* 104 (6): 1329–40. https://doi.org/10.1162/rest_a_00990.
+
+```
+@article{levin2022bridging,
+  title={Bridging level-k to nash equilibrium},
+  author={Levin, Dan and Zhang, Luyao},
+  journal={Review of Economics and Statistics},
+  volume={104},
+  number={6},
+  pages={1329--1340},
+  year={2022},
+  publisher={MIT Press One Rogers Street, Cambridge, MA 02142-1209, USA journals-info~…}
+}
+```
