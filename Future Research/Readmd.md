@@ -27,3 +27,9 @@ Integrating causal inference will significantly enhance the intellectual merits 
 - Enhanced decision-making for healthcare providers and policymakers, facilitating resource allocation and prioritization of preventive measures.
 
 In summary, extending the current research with causal inference methodologies promises to uncover new insights into the drivers of diabetes risk and facilitate the translation of these findings into impactful interventions.
+
+Flowchart: 
+
+<img src="Predictive Modeling and Analysis of Disease Spread Dynamics Using Machine Learning Techniques (2).png" alt="Flow chart">
+
+Source: Whimsical
