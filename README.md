@@ -1,3 +1,87 @@
+# Analyzing Diabetes Probability Using Four Different Machine Learning Algorithms
+## Project information
+- **Author**: Jiaolun Zhou, Computer design with track in computer science, Class of 2025, Duke Kunshan University
+- **Instructor**: Prof. Luyao Zhang, Duke Kunshan University
+- **Disclaimer**: Submissions to the Final Project for [Econ211 Intelligent Economy, 2023 Autumn Term (Seven Week - Second)](https://ms.pubpub.org/) instructed by Prof. Luyao Zhang at Duke Kunshan University.
+- **Acknowledgments**: I extend my deepest gratitude to Prof. Luyao Zhang and classmates in Stats201 for their unwavering guidance, expertise, and encouragement, which helped me finish this project. They offered great help in giving suggestions on how to improve my work.
+
+- **Project Summary**:
+
+  - **Project Background**: As a global public health problem, the incidence of diabetes continues to rise globally, placing a heavy burden on patients' quality of life as well as on society's healthcare resources. According to the World Health Organization (WHO), approximately 422 million people worldwide suffer from diabetes, and this number is expected to grow further in the coming years. The disease not only affects the physical health of individuals, leading to a series of complications such as cardiovascular disease, nephropathy, retinopathy, etc., but also has a profound impact on the socio-economic level.
+   The aim of this research project is to use modern machine learning techniques to deeply mine and analyze large-scale diabetes-related data obtained from the World Health Organization, with the aim of constructing an efficient and accurate prediction model for the risk of developing diabetes. We plan to use four mainstream machine learning algorithms: support vector machine (SVM), XGBoost, linear regression, and decision tree to model and predict the likelihood of diabetes occurrence, respectively.
+   By comparing the performance of the different algorithms on the training and validation sets, we will select the model with the best performance as the final risk assessment tool. This model will be able to accurately predict the likelihood of an individual developing diabetes in the future based on a series of key indicators, such as blood glucose level, age, gender, body mass index, blood pressure, etc., which will provide a scientific basis for clinical decision-making and help public health policy makers and medical institutions to realize early intervention and management strategies to effectively reduce the incidence of diabetes and its complications.
+  - [Research Questions]
+ 
+Note: please insert the screenshot of the answers to your research question by ChatGPT. The methodology that you use to address the research questions must be more innovative than both the current literature and ChatGPT. 
+
+  - [Application Scenario (Data Source)]
+  - [Methodology]
+  - [Results]
+  - [Intellectual Merits and Practical impacts of your project.]
+
+## Table of Contents
+- literature
+- method
+- data
+- code
+- results
+- spotlight
+- more about the author
+- references
+
+## Literature
+
+## Method
+
+## Data
+
+## Code
+
+## Result
+
+## Spotlight
+- Posters
+- Figures
+- Slides
+- Presentations
+- Review articles
+- Media appearance
+
+## More about the Author
+- headshot
+- self-introduction
+- Final reflections 
+  - intellectual growth
+  - professional growth
+  - living a purposeful life
+
+## References
+
+### Data Source
+- Data Source Title and URL
+### Code Source
+- Code Source Title and URL
+### Articles
+- Article Source Title and URL
+### Literature
+- Literature References in [Chicago Author-Date](https://www.chicagomanualofstyle.org/tools_citationguide/citation-guide-2.html) Style and [BibTex](https://scholar.google.com/) 
+
+Levin, Dan, and Luyao Zhang. 2020. “Bridging Level-K to Nash Equilibrium.” *The Review of Economics and Statistics* 104 (6): 1329–40. https://doi.org/10.1162/rest_a_00990.
+
+```
+@article{levin2022bridging,
+  title={Bridging level-k to nash equilibrium},
+  author={Levin, Dan and Zhang, Luyao},
+  journal={Review of Economics and Statistics},
+  volume={104},
+  number={6},
+  pages={1329--1340},
+  year={2022},
+  publisher={MIT Press One Rogers Street, Cambridge, MA 02142-1209, USA journals-info~…}
+}
+```
+
+
 # Jiaolun_Zhou
 <img src="Photo.jpg" alt="Abstract Word Cloud">
 
