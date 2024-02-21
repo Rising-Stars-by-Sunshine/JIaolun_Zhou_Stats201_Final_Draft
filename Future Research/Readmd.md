@@ -1,5 +1,3 @@
-**README: Expanding Current Research with Causal Inference Methods**
-
 ### Background/Motivation
 While the current research project has effectively utilized machine learning techniques to predict diabetes risk, it primarily focuses on associations between variables. However, establishing causality among these factors is essential for designing effective interventions and public health policies. Causal inference methods can help us understand which variables directly cause an increased risk of diabetes and estimate the potential impact of modifying those factors.
 
