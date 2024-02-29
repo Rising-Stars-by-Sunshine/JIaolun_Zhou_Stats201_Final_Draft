@@ -44,6 +44,14 @@ The study aims to demonstrate the effectiveness of machine learning algorithms i
 - Intellectual Merits/Practical Impacts:
 This research has the potential to contribute significantly to the field of healthcare and improve patient outcomes. By identifying individuals at high risk of developing diabetes, healthcare providers can intervene early and prevent the onset of the disease. Additionally, the findings of this study can inform public health policies and strategies aimed at reducing the prevalence of diabetes globally.
 
+1. **Connection to Existing Literature**
+The proposed research aligns with the study by Hong (2021), which focuses on using machine learning algorithms, specifically XGBoost, for predicting type 2 diabetes risk. Both studies underscore the importance of early detection and prevention in managing diabetes effectively and highlight the potential of machine learning models to address this challenge. The current research idea expands on this theme by exploring multiple machine learning algorithms such as logistic regression, decision trees, and random forests. It shares a common background motivation that underscores the global health burden of diabetes and the necessity for accurate predictive models based on patient data.
+
+2. **Innovation**
+While Hong's study zeroes in on the comparative performance of XGBoost against other specific models (SVM, RF, K-NN) within a single geographical context, the suggested research introduces an innovative approach by comparing a broader array of supervised machine learning techniques. This widens the scope of investigation into the most effective prediction methods for diabetes risk assessment. Moreover, the present research idea emphasizes the application of rigorous preprocessing steps and feature engineering, which can potentially lead to new insights into the key factors influencing diabetes risk. 
+
+By examining these additional machine learning models and emphasizing the process of model selection through cross-validation, this study offers a more comprehensive exploration into the realm of diabetes prediction models. Furthermore, it has the potential to reveal novel insights about the relative merits of different algorithms in the context of diabetes prediction, thereby contributing unique knowledge to the field of healthcare informatics and preventive medicine.
+
 - Flow chart
 
 <img src="Research idea.png" alt="Flow chart">
